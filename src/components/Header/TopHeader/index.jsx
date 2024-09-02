@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../../assets/images/Logo.svg";
 import { GrCart } from "react-icons/gr";
 
@@ -19,9 +20,12 @@ const TopHeader = () => {
         <div className="text-white ">
           <GrCart size={30} />
         </div>
-        <button className="bg-cream py-5 px-14 text-xl font-medium  text-dark">
+        <Link
+          to={"/reservation"}
+          className="bg-cream py-5 px-14 text-xl font-medium  text-dark"
+        >
           Reservation
-        </button>
+        </Link>
       </div>
     </div>
   );

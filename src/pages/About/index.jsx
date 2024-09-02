@@ -1,4 +1,13 @@
+import Header from "../../components/Header";
+
 const About = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      <Header />
+      <h1 className="text-5xl font-extrabold text-slate-900 text-center py-10">
+        About Page
+      </h1>
+    </div>
+  );
 };
 export default About;
