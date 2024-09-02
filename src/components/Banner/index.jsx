@@ -27,14 +27,14 @@ const Banner = () => {
         </div>
         {/* Right */}
         <div className="w-full  relative -bottom-28">
-          <div className="absolute -right-28 -top-10 -z-20">
+          <div className="absolute -right-28 -top-10 z-10">
             <img src={bannerCircleIcon} alt="" className="" />
           </div>
-          <div className="bg-lightDark p-7 flex justify-center rounded-t-full relative -z-10">
+          <div className=" ">
             <img
               src={bannerImage}
               alt=""
-              className="rounded-t-full relative z-10"
+              className="rounded-t-full relative z-20 -bottom-10"
             />
           </div>
         </div>

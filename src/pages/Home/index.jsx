@@ -6,7 +6,6 @@ const Home = () => {
     <div>
       <Header />
       <Banner />
-      <div className="h-32 w-full border-2 relative  bg-white"></div>
     </div>
   );
 };
