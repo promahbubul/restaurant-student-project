@@ -5,7 +5,7 @@ const TopHeader = () => {
   return (
     <div
       className="py-10 flex flex-row justify-between gap-20 
-     border-red-500 items-center font-josefin"
+     border-red-500 items-center font-josefin container mx-auto"
     >
       <div className="w-full  ">
         <p className="p-5 border border-cream inline text-white">
