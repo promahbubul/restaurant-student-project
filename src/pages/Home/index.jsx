@@ -1,10 +1,12 @@
+import Banner from "../../components/Banner";
 import Header from "../../components/Header";
 
 const Home = () => {
   return (
     <div>
       <Header />
-      <h1 className="text-5xl font-extrabold text-slate-900 text-center py-10">Home Page</h1>
+      <Banner />
+      <div className="h-32 w-full border-2 relative  bg-white"></div>
     </div>
   );
 };
