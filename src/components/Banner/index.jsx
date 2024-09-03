@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 import bannerImage from "../../assets/images/banner.svg";
-import bannerCircleIcon from "../../assets/icons/banner-circle.svg";
 const Banner = () => {
   return (
-    <div className="bg-dark pt-7 relative -z-30">
+    <div className="bg-dark pt-7 ">
       <div className="container mx-auto flex flex-row items-center gap-48">
         {/* Left */}
         <div className="w-full  text-white">
@@ -26,16 +25,9 @@ const Banner = () => {
           </Link>
         </div>
         {/* Right */}
-        <div className="w-full  relative -bottom-28">
-          <div className="absolute -right-28 -top-10 z-10">
-            <img src={bannerCircleIcon} alt="" className="" />
-          </div>
-          <div className=" ">
-            <img
-              src={bannerImage}
-              alt=""
-              className="rounded-t-full relative z-20 -bottom-10"
-            />
+        <div className="w-full   ">
+          <div className="translate-y-32">
+            <img src={bannerImage} alt="" className="" />
           </div>
         </div>
       </div>
