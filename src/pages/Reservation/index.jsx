@@ -1,13 +1,12 @@
 import Header from "../../components/Header";
+import PageTitle from "../../components/PageTitle";
 
 const Reservation = () => {
   return (
     <div>
       <Header />
-      <h1 className="text-5xl font-extrabold text-slate-900 text-center py-10">
-        Reservation Page
-      </h1>
+      <PageTitle title={"Booking Page"} />
     </div>
   );
-}
-export default Reservation
+};
+export default Reservation;

@@ -1,12 +1,11 @@
 import Header from "../../components/Header";
+import PageTitle from "../../components/PageTitle";
 
 const Blog = () => {
   return (
     <div>
       <Header />
-      <h1 className="text-5xl font-extrabold text-slate-900 text-center py-10">
-        Blog Page
-      </h1>
+      <PageTitle title={"Blog"} />
     </div>
   );
 };
