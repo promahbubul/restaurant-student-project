@@ -1,5 +1,6 @@
 import Banner from "../../components/Banner";
 import Header from "../../components/Header";
+import Menu from "../../components/Menu";
 import Story from "../../components/Story";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Header />
       <Banner />
       <Story />
+      <Menu />
     </div>
   );
 };
