@@ -2,7 +2,7 @@ import item1 from "../assets/images/menu-item/item1.svg";
 import item2 from "../assets/images/menu-item/item2.svg";
 import item3 from "../assets/images/menu-item/item3.svg";
 
-const menuItems = [
+const menuItemData = [
   {
     id: 1,
     title: "Raw Scallops from Erquy",
@@ -85,4 +85,4 @@ const menuItems = [
   },
 ];
 
-export { menuItems };
+export { menuItemData };

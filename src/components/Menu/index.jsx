@@ -1,7 +1,23 @@
 import OutlineButton from "../OulineButton";
 import menuBanner from "../../assets/images/menu-banner.svg";
+import MenuList from "./MenuList";
+import { menuItemData } from "../../constant/menu.constant";
+import { useEffect, useState } from "react";
 
 const Menu = () => {
+  const [starters, setStarters] = useState([]);
+  const [mainDish, setMainDish] = useState([]);
+  const [dessert, setDessert] = useState([]);
+
+  useEffect(() => {
+    const st = menuItemData.filter((item) => item.category === "Starters");
+    const md = menuItemData.filter((item) => item.category === "Main Dish");
+    const de = menuItemData.filter((item) => item.category === "Dessert");
+    setStarters(st);
+    setMainDish(md);
+    setDessert(de);
+  }, []);
+
   return (
     <div className="flex flex-row container mx-auto  py-48 gap-32">
       <div className="w-4/12 ">
@@ -21,7 +37,12 @@ const Menu = () => {
         </div>
         <OutlineButton title={"See all dishes"} />
       </div>
-      <div className="w-8/12  border-2 border-red-500"></div>
+      <div className="w-8/12 flex flex-col gap-10  ">
+        {/* Starters */}
+        <MenuList heading={"Starters"} items={starters} />
+        <MenuList heading={"Main Dish"} items={mainDish} />
+        <MenuList heading={"Dessert"} items={dessert} />
+      </div>
     </div>
   );
 };
