@@ -2,6 +2,7 @@ import Banner from "../../components/Banner";
 import Header from "../../components/Header";
 import Menu from "../../components/Menu";
 import Story from "../../components/Story";
+import Testimonial from "../../components/Testimonial";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Banner />
       <Story />
       <Menu />
+      <Testimonial />
     </div>
   );
 };

@@ -25,14 +25,15 @@ const MenuList = ({ heading, items }) => {
             <h3 className="text-3xl font-bold font-cormorant text-dark">
               {item.title}
             </h3>
-            <p className="text-darkCream text-xl font-josefin font-normal flex flex-row  items-end ">
-              {item.description}
-              <div className="flex flex-row maxw">
-                <div className="w-2 h-2 bg-gray-500 rounded-full"></div>
-                <div className="w-full"></div>
-                <div className="w-2 h-2 bg-gray-500 rounded-full"></div>
+            <div className="text-darkCream text-xl font-josefin font-normal flex flex-row  items-end ">
+              <p className="  w-full"> {item.description}</p>
+              <div className="flex flex-row items-center w-full">
+                <div className="w-2 h-2 bg-gray-300 rounded-full"></div>
+                {/* <div className="w-full border-2 border-dotted"></div> */}
+                <hr className="w-full border-t border-t-gray-400 border-dashed " />
+                <div className="w-2 h-2 bg-gray-300 rounded-full"></div>
               </div>
-            </p>
+            </div>
           </div>
           {/* Right */}
           <div className="w-[8%] ">
