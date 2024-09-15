@@ -48,6 +48,13 @@ const testimonialData = [
     country: "San Diego",
     comment: `It is professional, considers everyone's time, can think about the  There are many  passages whole probls small niche, friendly.`,
   },
+  {
+    id: 4,
+    img: avatar1,
+    name: "Daniyal Sppra",
+    country: "Newyork",
+    comment: `It is professional, considers everyone's time, can think about the  There are many variations of passages whole probls small niche, friendly.`,
+  },
 ];
 
 export { storyList, testimonialData };
