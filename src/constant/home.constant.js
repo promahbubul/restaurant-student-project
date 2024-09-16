@@ -4,6 +4,10 @@ import { RiFileList3Line } from "react-icons/ri";
 import avatar1 from "../assets/images/avatar/avatar-1.svg";
 import avatar2 from "../assets/images/avatar/avatar-2.svg";
 import avatar3 from "../assets/images/avatar/avatar-3.svg";
+import popularDishImage1 from "../assets/images/popular-dishes/popular-dish-1.png";
+import popularDishImage2 from "../assets/images/popular-dishes/popular-dish-2.jpg";
+import popularDishImage3 from "../assets/images/popular-dishes/popular-dish-3.jpg";
+import popularDishImage4 from "../assets/images/popular-dishes/popular-dish-4.jpg";
 
 const storyList = [
   {
@@ -57,4 +61,35 @@ const testimonialData = [
   },
 ];
 
-export { storyList, testimonialData };
+const popularDishesData = [
+  {
+    id: 1,
+    img: popularDishImage1,
+    title: "Chicken Manjoori",
+    description: `Lorem Ipsum is that it has a more-or-less normal`,
+    price: 15,
+  },
+  {
+    id: 2,
+    img: popularDishImage2,
+    title: "Chicken Manjoori",
+    description: `Lorem Ipsum is that it has a more-or-less normal`,
+    price: 15,
+  },
+  {
+    id: 3,
+    img: popularDishImage3,
+    title: "Chicken Manjoori",
+    description: `Lorem Ipsum is that it has a more-or-less normal`,
+    price: 15,
+  },
+  {
+    id: 4,
+    img: popularDishImage4,
+    title: "Chicken Manjoori",
+    description: `Lorem Ipsum is that it has a more-or-less normal`,
+    price: 15,
+  },
+];
+
+export { storyList, testimonialData, popularDishesData };
