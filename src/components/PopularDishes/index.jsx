@@ -1,4 +1,5 @@
 import { popularDishesData } from "../../constant/home.constant";
+import OutlineButton from "../OulineButton";
 import DishCard from "./DishCard";
 
 const PopularDishes = () => {
@@ -19,8 +20,19 @@ const PopularDishes = () => {
         </p>
       </div>
       {/* card container */}
-      <div className="">
-        <DishCard />
+      <div className="grid grid-cols-4 gap-7">
+        {popularDishesData.map((dish) => (
+          <DishCard
+            key={dish.id}
+            description={dish.description}
+            img={dish.img}
+            price={dish.price}
+            title={dish.title}
+          />
+        ))}
+      </div>
+      <div className="text-center mt-20">
+        <OutlineButton title={"See all dishes"} />
       </div>
     </div>
   );
