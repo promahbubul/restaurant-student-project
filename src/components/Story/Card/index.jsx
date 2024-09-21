@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 const Card = ({ icon: ImageIcon, title, description }) => {
-  console.log(title);
-  console.log(description);
   return (
-    <div className="flex flex-row  gap-5 
-    w-full ">
+    <div
+      className="flex flex-row  gap-5 
+    w-full "
+    >
       <div className="w-2/12 rounded-full  bg-dark text-white text-5xl flex items-center justify-center">
         <ImageIcon />
       </div>

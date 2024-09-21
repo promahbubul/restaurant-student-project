@@ -8,6 +8,8 @@ import popularDishImage1 from "../assets/images/popular-dishes/popular-dish-1.pn
 import popularDishImage2 from "../assets/images/popular-dishes/popular-dish-2.jpg";
 import popularDishImage3 from "../assets/images/popular-dishes/popular-dish-3.jpg";
 import popularDishImage4 from "../assets/images/popular-dishes/popular-dish-4.jpg";
+import blogImage1 from "../assets/images/blog/blog-image-1.jpg";
+import blogImage2 from "../assets/images/blog/blog-image-2.jpg";
 
 const storyList = [
   {
@@ -92,4 +94,25 @@ const popularDishesData = [
   },
 ];
 
-export { storyList, testimonialData, popularDishesData };
+const blogData = [
+  {
+    id: 1,
+    title: "The Most Popular Delicious Food Of Mediterranean Cuisine",
+    description:
+      "Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.",
+    img: blogImage1,
+    date: "Feb 22, 2022",
+    restaurant: "Restaurants",
+  },
+  {
+    id: 2,
+    title: "Elegant Dessert: 10 Tips How to Make It at Home",
+    description:
+      "Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.",
+    img: blogImage2,
+    date: "Feb 22, 2022",
+    restaurant: "Restaurants",
+  },
+];
+
+export { storyList, testimonialData, popularDishesData, blogData };

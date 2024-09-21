@@ -1,4 +1,5 @@
 import Banner from "../../components/Banner";
+import Blog from "../../components/Blog";
 import Header from "../../components/Header";
 import Menu from "../../components/Menu";
 import OurGreatServices from "../../components/OurGreatServices";
@@ -18,6 +19,7 @@ const Home = () => {
       <SpecialOffer />
       <PopularDishes />
       <OurGreatServices />
+      <Blog />
     </div>
   );
 };
