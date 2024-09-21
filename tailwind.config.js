@@ -14,6 +14,7 @@ export default {
         josefin: ["Josefin Sans", "sans-serif"],
         cormorant: ["Cormorant Infant", "serif"],
       },
+      backgroundImage: {},
     },
   },
   plugins: [],

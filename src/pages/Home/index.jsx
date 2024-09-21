@@ -4,6 +4,7 @@ import Header from "../../components/Header";
 import Menu from "../../components/Menu";
 import OurGreatServices from "../../components/OurGreatServices";
 import PopularDishes from "../../components/PopularDishes";
+import Reservation from "../../components/Reservation";
 import SpecialOffer from "../../components/SpecialOffer";
 import Story from "../../components/Story";
 import Testimonial from "../../components/Testimonial";
@@ -20,6 +21,7 @@ const Home = () => {
       <PopularDishes />
       <OurGreatServices />
       <Blog />
+      <Reservation />
     </div>
   );
 };
