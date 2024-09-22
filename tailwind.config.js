@@ -14,7 +14,9 @@ export default {
         josefin: ["Josefin Sans", "sans-serif"],
         cormorant: ["Cormorant Infant", "serif"],
       },
-      backgroundImage: {},
+      backgroundImage: {
+        "reservation-image": "url('/images/reservation-form-background.jpg')",
+      },
     },
   },
   plugins: [],
