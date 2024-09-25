@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 
 const Blog = () => {
   return (
-    <section className="container  mx-auto">
+    <section className="container p-5 md:p-0 mx-auto">
       {/* Heading */}
       <div className="max-w-[700px]   mx-auto text-center">
         <h3 className="font-josefin uppercase text-base text-dark border-y inline-block py-1 border-cream">
@@ -17,7 +17,7 @@ const Blog = () => {
         </p>
       </div>
       {/* Blog Container */}
-      <div className="flex flex-row gap-14">
+      <div className="flex flex-col md:flex-row gap-14">
         {/* card 1 */}
         {blogData.map((post) => (
           <BlogCard

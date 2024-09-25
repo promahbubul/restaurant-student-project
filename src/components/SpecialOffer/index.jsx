@@ -8,7 +8,7 @@ const SpecialOffer = () => {
         <img src={bannerImage} alt="" className="" />
       </div>
       {/* offer content section */}
-      <div className="container  mx-auto">
+      <div className="container p-5 md:p-0  mx-auto">
         {/* Heading */}
         <div className="max-w-[700px]   mx-auto text-center">
           <h3 className="font-josefin text-base text-dark border-y inline-block py-1 border-cream">
@@ -23,7 +23,7 @@ const SpecialOffer = () => {
           </p>
         </div>
         {/* Images */}
-        <div className="flex flex-row gap-7">
+        <div className="flex flex-col md:flex-row gap-7">
           {/* Image 1 */}
           <div className=" flex-1 h-[400px] border-2 ">
             <img

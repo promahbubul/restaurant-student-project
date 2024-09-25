@@ -6,9 +6,9 @@ import storySignature from "../../assets/images/story-signature.svg";
 const Story = () => {
   return (
     <section className="bg-lightCream py-44  -z-10 border-4">
-      <div className="container mx-auto">
+      <div className="container mx-auto p-5 md:p-0">
         {/* Story Top */}
-        <div className="flex flex-row items-center justify-between gap-10">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-10">
           {storyList.map((story) => (
             <Card
               key={story.id}
@@ -19,7 +19,7 @@ const Story = () => {
           ))}
         </div>
         {/* Story Bottom */}
-        <div className="flex flex-row   gap-10  mt-36">
+        <div className="flex flex-col md:flex-row   gap-10  mt-36">
           <div className="w-full">
             <img src={storyImage} alt="" className="w-full" />
           </div>

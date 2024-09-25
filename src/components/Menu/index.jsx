@@ -19,8 +19,8 @@ const Menu = () => {
   }, []);
 
   return (
-    <div className="flex flex-row container mx-auto  py-48 gap-32">
-      <div className="w-4/12 ">
+    <div className="flex flex-col px-5 md:px-0 md:flex-row container mx-auto  py-48 gap-32">
+      <div className="w-full md:w-4/12 ">
         <h3 className="font-josefin text-base text-dark border-y inline-block py-1 border-cream">
           Menu
         </h3>
@@ -37,7 +37,7 @@ const Menu = () => {
         </div>
         <OutlineButton title={"See all dishes"} />
       </div>
-      <div className="w-8/12 flex flex-col gap-10  ">
+      <div className="w-full md:w-8/12 flex flex-col gap-10  ">
         {/* Starters */}
         <MenuList heading={"Starters"} items={starters} />
         <MenuList heading={"Main Dish"} items={mainDish} />

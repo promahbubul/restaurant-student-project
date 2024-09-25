@@ -12,9 +12,9 @@ const servicesList = [
 const OurGreatServices = () => {
   return (
     <div className="bg-dark py-40 mt-40">
-      <div className="container mx-auto flex flex-row items-center justify-between gap-20">
+      <div className="container mx-auto flex flex-col p-5 md:p-0 md:flex-row items-center justify-between gap-20">
         {/* Section Heading */}
-        <div className=" w-4/12">
+        <div className=" w-full md:w-4/12">
           <h3 className="font-josefin text-base text-white border-y inline-block py-1 border-cream">
             What we offer
           </h3>
@@ -27,7 +27,7 @@ const OurGreatServices = () => {
           </p>
         </div>
         {/* Information container */}
-        <div className=" gap-10 w-8/12 flex flex-row items-center">
+        <div className=" gap-10 w-full md:w-8/12 flex flex-col md:flex-row items-center">
           {servicesList.map((item) => (
             <ServiceCard key={item.id} img={item.img} title={item.title} />
           ))}

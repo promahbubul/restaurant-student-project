@@ -3,10 +3,10 @@ import bannerImage from "../../assets/images/banner.svg";
 const Banner = () => {
   return (
     <div className="bg-dark pt-7 ">
-      <div className="container mx-auto flex flex-row items-center gap-48">
+      <div className="container mx-auto flex p-5 md:p-0 flex-col-reverse md:flex-row items-center gap-48">
         {/* Left */}
         <div className="w-full  text-white">
-          <h1 className="font-cormorant text font-bold text-8xl">
+          <h1 className="font-cormorant text font-bold text-5xl md:text-8xl">
             Welcome to Restaurantate
           </h1>
           <p className="mt-8 mb-11 text-xl">
@@ -15,11 +15,8 @@ const Banner = () => {
             similique, sunt voluptas dicta exercitationem tempore eius quo illum
             distinctio obcaecati? Placeat, quo!
           </p>
-          <Link to="menu">
-            <button
-              to={"/menu"}
-              className=" font-josefin text-xl p-5 border border-cream  text-white"
-            >
+          <Link to="/menu">
+            <button className=" mx-auto  block md:inline-block font-josefin text-xl p-5 border border-cream  text-white">
               View Menus
             </button>
           </Link>
