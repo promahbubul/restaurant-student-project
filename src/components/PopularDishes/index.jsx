@@ -7,7 +7,7 @@ const PopularDishes = () => {
     <div className="container p-5 md:p-0  mx-auto mt-10 md:mt-20">
       {/* Heading */}
       <div className="max-w-[700px]   mx-auto text-center">
-        <h3 className="font-josefin uppercase text-base text-dark border-y inline-block py-1 border-cream">
+        <h3 className="font-josefin uppercase text-base text-dark border-y inline-block py-0.5  md:py-1 border-cream">
           Menu
         </h3>
         <h2 className="text-dark text-3xl md:text-[40px] font-cormorant font-bold mt-3 mb-5">

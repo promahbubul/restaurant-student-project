@@ -23,7 +23,7 @@ const Banner = () => {
         </div>
         {/* Right */}
         <div className="w-full   ">
-          <div className="md:translate-y-32">
+          <div className="translate-x-5 md:translate-x-0 md:translate-y-32">
             <img src={bannerImage} alt="" className="" />
           </div>
         </div>
