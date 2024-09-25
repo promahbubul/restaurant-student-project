@@ -12,14 +12,40 @@ const Testimonial = () => {
     slidesToShow: 3,
     slidesToScroll: 3,
     // autoplay: true,
-    speed: 5000,
-    autoplaySpeed: 5000,
-    cssEase: "linear",
+    speed: 1000,
+    autoplaySpeed: 1000,
+    // cssEase: "linear",
     arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <div className="bg-dark">
-      <div className="container mx-auto  py-24 gap-32">
+      <div className="container p-5 md:p-0 mx-auto  py-24 gap-32">
         {/* Section Heading */}
         <div className="w-full ">
           <h3 className="font-josefin text-base text-white border-y inline-block py-1 border-cream">
@@ -37,7 +63,10 @@ const Testimonial = () => {
         <div className="slider-container     ">
           <Slider {...settings}>
             {testimonialData.map((item) => (
-              <div key={item.id} className="pl-10 -translate-x-10 block">
+              <div
+                key={item.id}
+                className="bg-dark p-2 md:pl-10 md:-translate-x-10 block"
+              >
                 <TestimonialCard
                   comment={item.comment}
                   country={item.country}

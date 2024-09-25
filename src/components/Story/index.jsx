@@ -5,7 +5,7 @@ import storySignature from "../../assets/images/story-signature.svg";
 
 const Story = () => {
   return (
-    <section className="bg-lightCream py-44  -z-10 border-4">
+    <section className="bg-lightCream py-20  md:py-44  -z-10 border-4">
       <div className="container mx-auto p-5 md:p-0">
         {/* Story Top */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
@@ -28,7 +28,7 @@ const Story = () => {
            border-red-500 "
           ></div>
           <div
-            className="w-full  h-20  
+            className="w-full  md:h-20  
             "
           >
             <div className="">
@@ -42,7 +42,7 @@ const Story = () => {
                 packages.
               </p>
             </div>
-            <div className="flex flex-row items-start justify-between mt-10 gap-10">
+            <div className="flex flex-col md:flex-row items-start justify-between mt-10 gap-10">
               <div className="">
                 <h1 className="text-[40px] font-cormorant font-bold">1996</h1>
                 <p className="font-josefin text-xl mt-5">

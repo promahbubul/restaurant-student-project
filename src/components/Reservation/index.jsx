@@ -4,17 +4,19 @@ import Input from "../Input";
 // import reservationBg from "../../assets/images/reservation-form-background.jpg";
 const Reservation = () => {
   return (
-    <div className={`bg-reservation-image py-48 mt-48 `}>
+    <div
+      className={`bg-reservation-image py-20 px-5 md:px-0 md:py-48 mt-16 md:mt-48 `}
+    >
       <form
         action=""
-        className="max-w-5xl bg-dark/95 py-32 px-5 md:px-36 mx-auto  w-full"
+        className="max-w-5xl bg-dark/85 md:bg-dark/95 py-16 md:py-32 px-5 md:px-36 mx-auto  w-full"
       >
         {/* Section Heading */}
         <div className="text-center">
-          <h3 className="font-josefin text-base text-white border-y inline-block py-1 border-cream">
+          <h3 className="font-josefin text-base text-white border-y inline-block py-0.5 md:py-1 border-cream">
             Reservation
           </h3>
-          <h2 className="text-white text-[40px] font-cormorant font-bold mt-3 mb-5">
+          <h2 className="text-white text-3xl md:text-[40px] font-cormorant font-bold mt-3 mb-5">
             Book your table now
           </h2>
         </div>

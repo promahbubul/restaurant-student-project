@@ -1,19 +1,21 @@
-import demo from "../../../assets/images/menu-item/item1.svg";
-// import demo from "../../../assets/images/menu-banner.svg";
+/* eslint-disable react/prop-types */
 
 const MenuList = ({ heading, items }) => {
   return (
     <div>
-      <h2 className="text-[40px] font-bold font-cormorant text-dark">
+      <h2 className="text-3xl md:text-[40px] font-bold font-cormorant text-dark">
         {heading}
       </h2>
       {items.map((item) => (
         <div
           key={item.id}
-          className="flex flex-row gap-5 mt-8 items-center justify-between"
+          className="flex flex-col md:flex-row gap-5 mt-8 items-center justify-between"
         >
           {/* Left */}
-          <div className="w-[12%] ">
+          <div
+            className="w-[12%] border-2
+           border-red-500 "
+          >
             <img
               src={item.img}
               alt=""
@@ -21,7 +23,10 @@ const MenuList = ({ heading, items }) => {
             />
           </div>
           {/* Middle */}
-          <div className="w-[80%] ">
+          <div
+            className="w-[80%] border-2
+           border-red-500 "
+          >
             <h3 className="text-3xl font-bold font-cormorant text-dark">
               {item.title}
             </h3>
@@ -36,7 +41,10 @@ const MenuList = ({ heading, items }) => {
             </div>
           </div>
           {/* Right */}
-          <div className="w-[8%] ">
+          <div
+            className="w-[8%] border-2
+           border-red-500 "
+          >
             <p className="text-3xl font-bold font-cormorant text-dark text-right">
               $ {item.price}
             </p>
