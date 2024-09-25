@@ -3,7 +3,7 @@ import bannerImage from "../../assets/images/banner.svg";
 const Banner = () => {
   return (
     <div className="bg-dark pt-7 ">
-      <div className="container mx-auto flex p-5 md:p-0 flex-col-reverse md:flex-row items-center gap-10 md:gap-48">
+      <div className="container md:px-5 md:px-5 mx-auto flex p-5 md:p-0 flex-col-reverse md:flex-row items-center gap-10 md:gap-48">
         {/* Left */}
         <div className="w-full  text-white">
           <h1 className="font-cormorant text-center md:text-left font-bold text-4xl md:text-8xl">

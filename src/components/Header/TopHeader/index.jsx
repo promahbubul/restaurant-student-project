@@ -15,13 +15,16 @@ const TopHeader = () => {
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
   return (
     <div
-      className="p-5 md:py-10 md:px-0 flex flex-col md:flex-row justify-between gap-5 md:gap-20 
-     border-red-500 items-center font-josefin container mx-auto "
+      className="p-5 md:py-10  flex flex-col md:flex-row justify-between gap-5 md:gap-20 
+     border-red-500 items-center font-josefin container md:px-5 mx-auto "
     >
-      <div className="w-full flex flex-row justify-between items-center  ">
-        <p className="p-3 md:p-5 border border-cream text-center md:inline text-white">
-          Call - 987 654 321{" "}
+      <div className="w-full  ">
+        <p className="pb-1 md:p-5 border-b md:border t  border-cream font-light md:font-normal  text-sm text-center md:inline text-white">
+          Call - 987 654 321
         </p>
+      </div>
+      <div className="w-full  flex flex-row justify-between items-center ">
+        <img src={logo} className=" w-32 md:w-[350px]" />
         {/* Mobile Menu Button */}
         <button
           onClick={() => setHamburgerMenu(!hamburgerMenu)}
@@ -70,16 +73,16 @@ const TopHeader = () => {
           </div>
         )}
       </div>
-      <div className="w-full  flex items-center justify-center">
-        <img src={logo} className=" w-44 md:w-[350px]" />
-      </div>
-      <div className="w-full  flex flex-row items-center justify-between md:justify-end gap-10">
-        <div className="text-white ">
-          <GrCart size={30} />
+      <div
+        className="w-full  flex flex-row-reverse md:flex-row items-center justify-start  md:justify-end gap-5
+       md:gap-10"
+      >
+        <div className="text-white text-2xl md:text-3xl ">
+          <GrCart />
         </div>
         <Link
           to={"/reservation"}
-          className="bg-cream py-3 md:py-5 px-8 md:px-14 text-xl font-medium  text-dark"
+          className="bg-cream py-2 text-sm md:py-5 px-8 md:px-14 md:text-xl font-medium  text-dark"
         >
           Reservation
         </Link>

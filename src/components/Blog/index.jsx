@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 
 const Blog = () => {
   return (
-    <section className="container p-5 md:p-0 mx-auto">
+    <section className="container md:px-5 p-5 md:p-0 mx-auto mt-14 md:mt-36">
       {/* Heading */}
       <div className="max-w-[700px]   mx-auto text-center">
         <h3 className="font-josefin uppercase text-base text-dark border-y inline-block py-0.5 md:py-1 border-cream">
@@ -16,7 +16,7 @@ const Blog = () => {
           {`Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content making.`}
         </p>
       </div>
-      {/* Blog Container */}
+      {/* Blog container md:px-5 */}
       <div className="flex flex-col md:flex-row gap-14">
         {/* card 1 */}
         {blogData.map((post) => (

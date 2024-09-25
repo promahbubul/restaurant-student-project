@@ -10,7 +10,7 @@ import { navItems } from "../../../constant/home.constant";
 const Navbar = () => {
   return (
     <div className="bg-dark border-y border-slate-500 hidden md:block">
-      <div className="container mx-auto flex flex-row items-center justify-between">
+      <div className="container md:px-5 mx-auto flex flex-row items-center justify-between">
         {/* Left */}
         <div className="  flex flex-row">
           {navItems.map((item) => (

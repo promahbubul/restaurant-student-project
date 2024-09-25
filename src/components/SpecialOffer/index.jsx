@@ -4,11 +4,11 @@ import posterImage2 from "../../assets/special-offer-poster-2.svg";
 const SpecialOffer = () => {
   return (
     <div>
-      <div className="h-full md:h-[600px]">
-        <img src={bannerImage} alt="" className="" />
+      <div className="h-full md:h-[400px]">
+        <img src={bannerImage} alt="" className="object-cover h-full w-full" />
       </div>
       {/* offer content section */}
-      <div className="container mt-16 md:mt-48  p-5 md:p-0  mx-auto">
+      <div className="container md:px-5 mt-16 md:mt-36  p-5 md:p-0  mx-auto">
         {/* Heading */}
         <div className="max-w-[700px]   mx-auto text-center">
           <h3 className="font-josefin text-base text-dark border-y inline-block py-0.5 md:py-1 border-cream">

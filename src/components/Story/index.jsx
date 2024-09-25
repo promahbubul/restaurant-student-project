@@ -5,8 +5,8 @@ import storySignature from "../../assets/images/story-signature.svg";
 
 const Story = () => {
   return (
-    <section className="bg-lightCream py-16  md:py-44  -z-10 border-4">
-      <div className="container mx-auto p-5 md:p-0">
+    <section className="bg-lightCream py-16  md:py-44  -z-10 ">
+      <div className="container md:px-5 mx-auto p-5 md:p-0">
         {/* Story Top */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-5 md:gap-10">
           {storyList.map((story) => (

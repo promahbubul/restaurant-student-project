@@ -6,7 +6,7 @@ const Card = ({ icon: ImageIcon, title, description }) => {
     w-full text-center md:text-left"
     >
       <div className="w-full  md:w-2/12     text-white text-5xl flex items-center justify-center">
-        <div className=" bg-dark rounded-full p-3 md:px-5 inline-block">
+        <div className=" bg-dark rounded-full p-3 md:px-5 md:py-5 inline-block">
           <ImageIcon />
         </div>
       </div>

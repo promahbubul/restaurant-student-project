@@ -10,11 +10,12 @@ const Testimonial = () => {
     dots: true,
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
+
     // autoplay: true,
-    speed: 1000,
-    autoplaySpeed: 1000,
-    // cssEase: "linear",
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
     arrows: false,
     responsive: [
       {
@@ -45,7 +46,7 @@ const Testimonial = () => {
   };
   return (
     <div className="bg-dark">
-      <div className="container p-5 md:p-0 mx-auto py-14  md:py-24 gap-32">
+      <div className="container md:px-5 p-5 md:p-0 mx-auto py-14  md:py-24 gap-32">
         {/* Section Heading */}
         <div className="w-full text-center md:text-left ">
           <h3 className="font-josefin text-base text-white border-y inline-block py-0.5 md:py-1 border-cream">
@@ -59,8 +60,8 @@ const Testimonial = () => {
             hello in an email.
           </p>
         </div>
-        {/* Carousel Container */}
-        <div className="slider-container     ">
+        {/* Carousel container md:px-5 */}
+        <div className="slider-container md:px-5     ">
           <Slider {...settings}>
             {testimonialData.map((item) => (
               <div

@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const TestimonialCard = ({ img, name, country, comment }) => {
   return (
-    <div className="text-white md:h-[380px] bg-[#343942] py-12 px-10 w-full ">
+    <div className="text-white md:h-[450px] bg-[#343942] py-12 px-10 w-full ">
       <div className="flex flex-col md:flex-row items-center gap-6 border-b border-b-[#797E89] pb-7 mb-6">
         <div className="h-20 w-20  rounded-full">
           <img src={img} alt="" className="h-20 w-20 " />

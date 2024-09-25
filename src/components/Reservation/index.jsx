@@ -20,7 +20,7 @@ const Reservation = () => {
             Book your table now
           </h2>
         </div>
-        {/* Input Field Container */}
+        {/* Input Field container md:px-5 */}
         <div className="grid grid-cols-12 gap-5 md:gap-7">
           <Input
             className={"col-span-12 md:col-span-6"}
