@@ -46,27 +46,27 @@ const Testimonial = () => {
   };
   return (
     <div className="bg-dark">
-      <div className="container md:px-5 p-5 md:p-0 mx-auto py-14  md:py-24 gap-32">
+      <div className="container lg:px-5 p-5 lg:p-0 mx-auto py-14  lg:py-24 gap-32">
         {/* Section Heading */}
-        <div className="w-full text-center md:text-left ">
-          <h3 className="font-josefin text-base text-white border-y inline-block py-0.5 md:py-1 border-cream">
+        <div className="w-full text-center lg:text-left ">
+          <h3 className="font-josefin text-base text-white border-y inline-block py-0.5 lg:py-1 border-cream">
             Testimonial
           </h3>
-          <h2 className="text-white text-3xl md:text-[40px] font-cormorant font-bold mt-3 mb-5">
+          <h2 className="text-white text-3xl lg:text-[40px] font-cormorant font-bold mt-3 mb-5">
             What our clients say
           </h2>
-          <p className="text-lg md:text-xl font-josefin font-normal text-white mb-9 md:mb-14">
+          <p className="text-lg lg:text-xl font-josefin font-normal text-white mb-9 lg:mb-14">
             We love to hear from customers, so please leave a comment or say
             hello in an email.
           </p>
         </div>
-        {/* Carousel container md:px-5 */}
-        <div className="slider-container md:px-5     ">
+        {/* Carousel container lg:px-5 */}
+        <div className="slider-container lg:px-5     ">
           <Slider {...settings}>
             {testimonialData.map((item) => (
               <div
                 key={item.id}
-                className="bg-dark p-2 md:pl-10 md:-translate-x-10 block"
+                className="bg-dark p-2 lg:pl-10 lg:-translate-x-10 block"
               >
                 <TestimonialCard
                   comment={item.comment}

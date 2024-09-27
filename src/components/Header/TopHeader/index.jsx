@@ -15,20 +15,20 @@ const TopHeader = () => {
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
   return (
     <div
-      className="p-5 md:py-10  flex flex-col md:flex-row justify-between gap-5 md:gap-20 
-     border-red-500 items-center font-josefin container md:px-5 mx-auto "
+      className="p-5 lg:py-10  flex flex-col lg:flex-row justify-between gap-5 lg:gap-20 
+     border-red-500 items-center font-josefin container lg:px-5 mx-auto "
     >
       <div className="w-full  ">
-        <p className="pb-1 md:p-5 border-b md:border t  border-cream font-light md:font-normal  text-sm text-center md:inline text-white">
+        <p className="pb-1 lg:p-5 border-b lg:border t  border-cream font-light lg:font-normal  text-sm text-center lg:inline text-white">
           Call - 987 654 321
         </p>
       </div>
       <div className="w-full  flex flex-row justify-between items-center ">
-        <img src={logo} className=" w-32 md:w-[350px]" />
+        <img src={logo} className=" w-32 lg:w-[350px]" />
         {/* Mobile Menu Button */}
         <button
           onClick={() => setHamburgerMenu(!hamburgerMenu)}
-          className="md:hidden"
+          className="lg:hidden"
         >
           <CiMenuFries className="text-4xl font-bold text-white" />
         </button>
@@ -74,15 +74,15 @@ const TopHeader = () => {
         )}
       </div>
       <div
-        className="w-full  flex flex-row-reverse md:flex-row items-center justify-start  md:justify-end gap-5
-       md:gap-10"
+        className="w-full  flex flex-row-reverse lg:flex-row items-center justify-start  lg:justify-end gap-5
+       lg:gap-10"
       >
-        <div className="text-white text-2xl md:text-3xl ">
+        <div className="text-white text-2xl lg:text-3xl ">
           <GrCart />
         </div>
         <Link
           to={"/reservation"}
-          className="bg-cream py-2 text-sm md:py-5 px-8 md:px-14 md:text-xl font-medium  text-dark"
+          className="bg-cream py-2 text-sm lg:py-5 px-8 lg:px-14 lg:text-xl font-medium  text-dark"
         >
           Reservation
         </Link>

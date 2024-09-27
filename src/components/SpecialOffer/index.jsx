@@ -4,26 +4,26 @@ import posterImage2 from "../../assets/special-offer-poster-2.svg";
 const SpecialOffer = () => {
   return (
     <div>
-      <div className="h-full md:h-[400px]">
+      <div className="h-full lg:h-[400px]">
         <img src={bannerImage} alt="" className="object-cover h-full w-full" />
       </div>
       {/* offer content section */}
-      <div className="container md:px-5 mt-16 md:mt-36  p-5 md:p-0  mx-auto">
+      <div className="container lg:px-5 mt-16 lg:mt-36  p-5 lg:p-0  mx-auto">
         {/* Heading */}
         <div className="max-w-[700px]   mx-auto text-center">
-          <h3 className="font-josefin text-base text-dark border-y inline-block py-0.5 md:py-1 border-cream">
+          <h3 className="font-josefin text-base text-dark border-y inline-block py-0.5 lg:py-1 border-cream">
             OFFER
           </h3>
-          <h2 className="text-dark text-3xl md:text-[40px] font-cormorant font-bold mt-3 mb-5">
+          <h2 className="text-dark text-3xl lg:text-[40px] font-cormorant font-bold mt-3 mb-5">
             Our special Offer dishes
           </h2>
-          <p className="text-lg md:text-xl font-josefin font-normal text-darkCream mb-7">
+          <p className="text-lg lg:text-xl font-josefin font-normal text-darkCream mb-7">
             {`Lorem Ipsum is that it has a more-or-less normal distribution of
             letters, as opposed to using 'Content here, content making.`}
           </p>
         </div>
         {/* Images */}
-        <div className="flex flex-col md:flex-row gap-7">
+        <div className="flex flex-col lg:flex-row gap-7">
           {/* Image 1 */}
           <div className=" flex-1 h-[400px] border-2 ">
             <img
