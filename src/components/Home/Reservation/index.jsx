@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "../../shared/Button";
 import Input from "../Input";
 
 // import reservationBg from "../../assets/images/reservation-form-background.jpg";

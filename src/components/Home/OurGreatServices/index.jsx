@@ -1,7 +1,7 @@
 import ServiceCard from "./ServiceCard";
-import calenderIcon from "../../assets/icons/services/calender-servce.png";
-import listIcon from "../../assets/icons/services/list-service.png";
-import bakeIcon from "../../assets/icons/services/byke-service.png";
+import calenderIcon from "../../../assets/icons/services/calender-servce.png";
+import listIcon from "../../../assets/icons/services/list-service.png";
+import bakeIcon from "../../../assets/icons/services/byke-service.png";
 
 const servicesList = [
   { id: 1, title: "Opened 24/7", img: calenderIcon },

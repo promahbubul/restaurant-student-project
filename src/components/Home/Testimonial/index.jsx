@@ -1,4 +1,4 @@
-import { testimonialData } from "../../constant/home.constant";
+import { testimonialData } from "../../../constant/home.constant";
 import TestimonialCard from "./TestimonialCard";
 import Slider from "react-slick";
 

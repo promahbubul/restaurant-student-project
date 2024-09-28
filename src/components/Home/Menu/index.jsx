@@ -1,7 +1,7 @@
-import OutlineButton from "../OulineButton";
-import menuBanner from "../../assets/images/menu-banner.svg";
+import OutlineButton from "../../shared/OulineButton";
+import menuBanner from "../../../assets/images/menu-banner.svg";
 import MenuList from "./MenuList";
-import { menuItemData } from "../../constant/menu.constant";
+import { menuItemData } from "../../../constant/menu.constant";
 import { useEffect, useState } from "react";
 
 const Menu = () => {
@@ -28,9 +28,9 @@ const Menu = () => {
           Try Our Special Offers
         </h2>
         <p className="text-lg lg:text-xl font-josefin font-normal text-darkCream mb-14">
-          Lorem Ipsum is that it has a more-or-less normal distribution of
+          {` Lorem Ipsum is that it has a more-or-less normal distribution of
           letters, as opposed to using 'Content here, content making it look
-          like readable English.{" "}
+          like readable English.`}
         </p>
         <div className="mb-14">
           <img src={menuBanner} alt="" className="" />

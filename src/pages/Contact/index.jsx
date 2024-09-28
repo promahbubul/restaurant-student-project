@@ -1,5 +1,5 @@
-import Header from "../../components/Header";
-import PageTitle from "../../components/PageTitle";
+import PageTitle from "../../components/shared/PageTitle";
+import Header from "../../components/shared/Header";
 
 const Contact = () => {
   return (

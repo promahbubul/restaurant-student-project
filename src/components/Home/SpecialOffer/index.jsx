@@ -1,6 +1,6 @@
-import bannerImage from "../../assets/special-offer.svg";
-import posterImage1 from "../../assets/special-offer-poster-1.svg";
-import posterImage2 from "../../assets/special-offer-poster-2.svg";
+import bannerImage from "../../../assets/special-offer.svg";
+import posterImage1 from "../../../assets/special-offer-poster-1.svg";
+import posterImage2 from "../../../assets/special-offer-poster-2.svg";
 const SpecialOffer = () => {
   return (
     <div>

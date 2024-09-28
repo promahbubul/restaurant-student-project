@@ -1,4 +1,4 @@
-import { blogData } from "../../constant/home.constant";
+import { blogData } from "../../../constant/home.constant";
 import BlogCard from "./BlogCard";
 
 const Blog = () => {

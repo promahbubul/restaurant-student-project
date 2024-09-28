@@ -1,9 +1,9 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from "../../../assets/images/Logo.svg";
+import logo from "../../../../assets/images/Logo.svg";
 import { GrCart } from "react-icons/gr";
 import { CiMenuFries } from "react-icons/ci";
 import { useState } from "react";
-import { navItems } from "../../../constant/home.constant";
+import { navItems } from "../../../../constant/home.constant";
 import {
   FaFacebook,
   FaInstagram,

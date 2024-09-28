@@ -5,7 +5,7 @@ import {
   FaPinterest,
   FaTwitter,
 } from "react-icons/fa";
-import { navItems } from "../../../constant/home.constant";
+import { navItems } from "../../../../constant/home.constant";
 
 const Navbar = () => {
   return (

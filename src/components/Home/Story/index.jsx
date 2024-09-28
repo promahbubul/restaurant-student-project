@@ -1,7 +1,7 @@
-import { storyList } from "../../constant/home.constant";
+import { storyList } from "../../../constant/home.constant";
 import Card from "./Card";
-import storyImage from "../../assets/images/story-iamge.svg";
-import storySignature from "../../assets/images/story-signature.svg";
+import storyImage from "../../../assets/images/story-iamge.svg";
+import storySignature from "../../../assets/images/story-signature.svg";
 
 const Story = () => {
   return (

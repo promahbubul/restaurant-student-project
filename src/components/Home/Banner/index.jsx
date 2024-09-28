@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import bannerImage from "../../assets/images/banner.svg";
+import bannerImage from "../../../assets/images/banner.svg";
 const Banner = () => {
   return (
     <div className="bg-dark pt-7 ">

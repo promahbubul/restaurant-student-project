@@ -1,5 +1,5 @@
-import Header from "../../components/Header";
-import PageTitle from "../../components/PageTitle";
+import Header from "../../components/shared/Header";
+import PageTitle from "../../components/shared/PageTitle";
 
 const Blog = () => {
   return (
