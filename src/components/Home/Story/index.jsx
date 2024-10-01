@@ -1,7 +1,5 @@
 import { storyList } from "../../../constant/home.constant";
 import Card from "./Card";
-import storyImage from "../../../assets/images/story-iamge.svg";
-import storySignature from "../../../assets/images/story-signature.svg";
 
 const Story = () => {
   return (
@@ -21,7 +19,11 @@ const Story = () => {
         {/* Story Bottom */}
         <div className="flex flex-col lg:flex-row  gap-5 lg:gap-10 mt-14 lg:mt-36">
           <div className="w-full">
-            <img src={storyImage} alt="" className="w-full" />
+            <img
+              src={"https://i.ibb.co.com/Vm2jCk8/story-iamge.png"}
+              alt=""
+              className="w-full"
+            />
           </div>
           <div
             className="w-[2px] bg-[#B29A90] 
@@ -66,7 +68,11 @@ const Story = () => {
                 JOSEFINE
               </h5>
               <div className="flex justify-end lg:justify-start">
-                <img src={storySignature} alt="" className="w-28 lg:w-auto" />
+                <img
+                  src={"https://i.ibb.co.com/fnyPxXg/story-signature.png"}
+                  alt=""
+                  className="w-28 lg:w-auto"
+                />
               </div>
             </div>
           </div>

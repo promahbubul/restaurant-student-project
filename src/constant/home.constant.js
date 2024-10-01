@@ -1,15 +1,6 @@
 import { CiLocationOn } from "react-icons/ci";
 import { MdOutlineSpeed } from "react-icons/md";
 import { RiFileList3Line } from "react-icons/ri";
-import avatar1 from "../assets/images/avatar/avatar-1.svg";
-import avatar2 from "../assets/images/avatar/avatar-2.svg";
-import avatar3 from "../assets/images/avatar/avatar-3.svg";
-import popularDishImage1 from "../assets/images/popular-dishes/popular-dish-1.png";
-import popularDishImage2 from "../assets/images/popular-dishes/popular-dish-2.jpg";
-import popularDishImage3 from "../assets/images/popular-dishes/popular-dish-3.jpg";
-import popularDishImage4 from "../assets/images/popular-dishes/popular-dish-4.jpg";
-import blogImage1 from "../assets/images/blog/blog-image-1.jpg";
-import blogImage2 from "../assets/images/blog/blog-image-2.jpg";
 
 const storyList = [
   {
@@ -35,28 +26,28 @@ const storyList = [
 const testimonialData = [
   {
     id: 1,
-    img: avatar1,
+    img: "https://i.ibb.co.com/yNmcCNZ/avatar-2.png",
     name: "Daniyal Sppra",
     country: "Newyork",
     comment: `It is professional, considers everyone's time, can think about the  There are many variations of passages whole probls small niche, friendly.`,
   },
   {
     id: 2,
-    img: avatar2,
+    img: "https://i.ibb.co.com/kJw0Tsd/avatar-3.png",
     name: "Natasha D",
     country: "Salt Lake City",
     comment: `It is professional, considers everyone's time, can think about the  There are many variations of passages.`,
   },
   {
     id: 3,
-    img: avatar3,
+    img: "https://i.ibb.co.com/7QxxjPY/avatar-1.png",
     name: "Jack Sparrow",
     country: "San Diego",
     comment: `It is professional, considers everyone's time, can think about the  There are many  passages whole probls small niche, friendly.`,
   },
   {
     id: 4,
-    img: avatar1,
+    img: "https://i.ibb.co.com/yNmcCNZ/avatar-2.png",
     name: "Daniyal Sppra",
     country: "Newyork",
     comment: `It is professional, considers everyone's time, can think about the  There are many variations of passages whole probls small niche, friendly.`,
@@ -66,28 +57,28 @@ const testimonialData = [
 const popularDishesData = [
   {
     id: 1,
-    img: popularDishImage1,
+    img: "https://i.ibb.co.com/0j6HTvX/popular-dish-1.png",
     title: "Chicken Manjoori",
     description: `Lorem Ipsum is that it has a more-or-less normal`,
     price: 15,
   },
   {
     id: 2,
-    img: popularDishImage2,
+    img: "https://i.ibb.co.com/PD8NKq4/popular-dish-2.jpg",
     title: "Chicken Manjoori",
     description: `Lorem Ipsum is that it has a more-or-less normal`,
     price: 15,
   },
   {
     id: 3,
-    img: popularDishImage3,
+    img: "https://i.ibb.co.com/1dwTPmW/popular-dish-3.jpg",
     title: "Chicken Manjoori",
     description: `Lorem Ipsum is that it has a more-or-less normal`,
     price: 15,
   },
   {
     id: 4,
-    img: popularDishImage4,
+    img: "https://i.ibb.co.com/8sc7k8J/popular-dish-4.jpg",
     title: "Chicken Manjoori",
     description: `Lorem Ipsum is that it has a more-or-less normal`,
     price: 15,
@@ -100,7 +91,7 @@ const blogData = [
     title: "The Most Popular Delicious Food Of Mediterranean Cuisine",
     description:
       "Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.",
-    img: blogImage1,
+    img: "https://i.ibb.co.com/khcDHdM/blog-image-1.jpg",
     date: "Feb 22, 2022",
     restaurant: "Restaurants",
   },
@@ -109,7 +100,7 @@ const blogData = [
     title: "Elegant Dessert: 10 Tips How to Make It at Home",
     description:
       "Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.",
-    img: blogImage2,
+    img: "https://i.ibb.co.com/yq0KTbH/blog-image-2.jpg",
     date: "Feb 22, 2022",
     restaurant: "Restaurants",
   },

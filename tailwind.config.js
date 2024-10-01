@@ -16,6 +16,7 @@ export default {
       },
       backgroundImage: {
         "reservation-image": "url('/images/reservation-form-background.jpg')",
+        "sort-info-bg": "url('https://i.ibb.co.com/zfWkMS1/Background.jpg')",
       },
     },
   },

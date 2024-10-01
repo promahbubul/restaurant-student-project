@@ -1,5 +1,3 @@
-import bannerImage from "../../../assets/images/about-page/hero-bg.png";
-import storySignature from "../../../assets/images/story-signature.svg";
 import OutlineButton from "../../shared/OulineButton";
 const QualityTradition = () => {
   return (
@@ -23,7 +21,11 @@ const QualityTradition = () => {
               JOSEFINE
             </h5>
             <div className="flex justify-end lg:justify-start">
-              <img src={storySignature} alt="" className="w-28 lg:w-auto" />
+              <img
+                src={"https://i.ibb.co.com/fnyPxXg/story-signature.png"}
+                alt=""
+                className="w-28 lg:w-auto"
+              />
             </div>
           </div>
           <OutlineButton title={"See More"} />
@@ -31,7 +33,11 @@ const QualityTradition = () => {
       </div>
       <div className="w-full ">
         <div className="  ">
-          <img src={bannerImage} alt="" className="  object-cover w-full " />
+          <img
+            src={"https://i.ibb.co.com/dbXVhx5/hero-bg.png"}
+            alt=""
+            className="  object-cover w-full "
+          />
         </div>
       </div>
     </div>

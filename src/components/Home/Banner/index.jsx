@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
-import bannerImage from "../../../assets/images/banner.svg";
 const Banner = () => {
   return (
     <div className="bg-dark pt-7 ">
-      <div className="container lg:px-5 lg:px-5 mx-auto flex p-5 lg:p-0 flex-col-reverse lg:flex-row items-center gap-10 lg:gap-48">
+      <div className="container  lg:px-5 mx-auto flex p-5 lg:p-0 flex-col-reverse lg:flex-row items-center gap-10 lg:gap-48">
         {/* Left */}
         <div className="w-full  text-white">
           <h1 className="font-cormorant text-center lg:text-left font-bold text-4xl lg:text-8xl">
@@ -24,7 +23,11 @@ const Banner = () => {
         {/* Right */}
         <div className="w-full   ">
           <div className="translate-x-5 lg:translate-x-0 lg:translate-y-32">
-            <img src={bannerImage} alt="" className="" />
+            <img
+              src={"https://i.ibb.co.com/yfb9SPH/banner.png"}
+              alt=""
+              className=""
+            />
           </div>
         </div>
       </div>

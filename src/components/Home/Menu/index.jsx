@@ -1,5 +1,4 @@
 import OutlineButton from "../../shared/OulineButton";
-import menuBanner from "../../../assets/images/menu-banner.svg";
 import MenuList from "./MenuList";
 import { menuItemData } from "../../../constant/menu.constant";
 import { useEffect, useState } from "react";
@@ -33,7 +32,7 @@ const Menu = () => {
           like readable English.`}
         </p>
         <div className="mb-14">
-          <img src={menuBanner} alt="" className="" />
+          {/* <img src={menuBanner} alt="" className="" /> */}
         </div>
         <OutlineButton title={"See all dishes"} />
       </div>

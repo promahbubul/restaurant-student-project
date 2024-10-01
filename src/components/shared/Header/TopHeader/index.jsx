@@ -1,5 +1,4 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from "../../../../assets/images/Logo.svg";
 import { GrCart } from "react-icons/gr";
 import { CiMenuFries } from "react-icons/ci";
 import { useState } from "react";
@@ -24,7 +23,10 @@ const TopHeader = () => {
         </p>
       </div>
       <div className="w-full  flex flex-row justify-between items-center ">
-        <img src={logo} className=" w-32 lg:w-[350px]" />
+        <img
+          src={"https://i.ibb.co.com/HKW3pdx/Logo.png"}
+          className=" w-32 lg:w-[350px]"
+        />
         {/* Mobile Menu Button */}
         <button
           onClick={() => setHamburgerMenu(!hamburgerMenu)}
