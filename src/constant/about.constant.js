@@ -52,4 +52,11 @@ const chefsData = [
   },
 ];
 
-export { sortInformaitonData, chefsData };
+const galleryData = [
+  
+  "https://i.ibb.co.com/7gFkgkJ/gallery-3.jpg",
+  "",
+  "https://i.ibb.co.com/zh9sBth/gallery-5.jpg",
+];
+
+export { sortInformaitonData, chefsData, galleryData };
