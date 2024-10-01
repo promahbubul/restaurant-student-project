@@ -1,7 +1,3 @@
-const aboutImages = {
-  sortInfoBg: "https://i.ibb.co.com/zfWkMS1/Background.jpg",
-};
-
 const sortInformaitonData = [
   {
     id: 1,
@@ -29,4 +25,31 @@ const sortInformaitonData = [
   },
 ];
 
-export { sortInformaitonData, aboutImages };
+const chefsData = [
+  {
+    id: 1,
+    name: "Avroko",
+    designation: "Master Chef",
+    img: "https://i.ibb.co.com/SxmmZxK/chef-4.jpg",
+  },
+  {
+    id: 2,
+    name: "Evan Mattew",
+    designation: "Master Chef",
+    img: "https://i.ibb.co.com/9hhxfCL/chef-3.jpg",
+  },
+  {
+    id: 3,
+    name: "Diane	Clarkson",
+    designation: "Master Chef",
+    img: "https://i.ibb.co.com/QCLvwFN/chef-2.jpg",
+  },
+  {
+    id: 4,
+    name: "Dan Rafalin",
+    designation: "Assistant Chef",
+    img: "https://i.ibb.co.com/pXmDbwR/chef-1.jpg",
+  },
+];
+
+export { sortInformaitonData, chefsData };
