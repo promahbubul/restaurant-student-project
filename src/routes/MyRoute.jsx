@@ -8,6 +8,7 @@ import Gallery from "../pages/Gallery";
 import Blog from "../pages/Blog";
 import Contact from "../pages/Contact";
 import Faq from "../pages/Faq";
+import Changelog from "../pages/Changelog";
 
 const routes = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const routes = createBrowserRouter([
   {
     path: "/faq",
     element: <Faq />,
+  },
+  {
+    path: "/changelog",
+    element: <Changelog />,
   },
 ]);
 

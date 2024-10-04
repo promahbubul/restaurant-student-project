@@ -4,7 +4,7 @@ import TopFooter from "./TopFooter";
 
 const Footer = () => {
   return (
-    <div className="bg-dark pt-24">
+    <div className="bg-dark pt-24 ">
       <div className="container mx-auto">
         <TopFooter />
         <MiddleFooter />
