@@ -15,8 +15,10 @@ const Navbar = () => {
         <div className="  flex flex-row">
           {navItems.map((item) => (
             <NavLink
-              className={
-                " text-lg text-white py-5 px-8 hover:bg-cream font-josefin"
+              className={({ isActive }) =>
+                isActive
+                  ? " text-lg text-white py-5 px-8 bg-cream  font-josefin"
+                  : " text-lg text-white py-5 px-8 hover:bg-cream font-josefin"
               }
               key={item.id}
               to={item.path}
