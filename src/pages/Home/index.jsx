@@ -7,6 +7,7 @@ import Reservation from "../../components/Home/Reservation";
 import SpecialOffer from "../../components/Home/SpecialOffer";
 import Story from "../../components/Home/Story";
 import Testimonial from "../../components/Home/Testimonial";
+import Footer from "../../components/shared/Footer";
 import Header from "../../components/shared/Header";
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <OurGreatServices />
       <Blog />
       <Reservation />
+      <Footer />
     </div>
   );
 };
