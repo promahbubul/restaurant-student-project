@@ -7,6 +7,9 @@ const QuestionSection = () => {
   const [showMore, setShowMore] = useState(null);
 
   const handleShowMore = (id) => {
+    if (showMore === id) {
+      return setShowMore(null);
+    }
     setShowMore(id);
   };
   return (
