@@ -9,6 +9,7 @@ import Blog from "../pages/Blog";
 import Contact from "../pages/Contact";
 import Faq from "../pages/Faq";
 import Changelog from "../pages/Changelog";
+import Password from "../pages/Password";
 
 const routes = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const routes = createBrowserRouter([
   {
     path: "/changelog",
     element: <Changelog />,
+  },
+  {
+    path: "/password",
+    element: <Password />,
   },
 ]);
 
