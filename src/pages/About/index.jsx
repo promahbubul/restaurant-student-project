@@ -4,6 +4,7 @@ import QualityTradition from "../../components/About/QualityTradition";
 import SortInfo from "../../components/About/SortInfo";
 import Testimonials from "../../components/About/Testimonials";
 import Reservation from "../../components/Home/Reservation";
+import Footer from "../../components/shared/Footer";
 import Header from "../../components/shared/Header";
 import PageTitle from "../../components/shared/PageTitle";
 
@@ -18,6 +19,7 @@ const About = () => {
       <Testimonials />
       <Gallery />
       <Reservation />
+      <Footer />
     </div>
   );
 };
